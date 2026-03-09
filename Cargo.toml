@@ -3,4 +3,12 @@ name = "privacy-vm"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "pvm_risc_v"
+path = "lib/lib.rs"
+
+[[bin]]
+name = "pvm"
+path = "cli/main.rs"
+
 [dependencies]
